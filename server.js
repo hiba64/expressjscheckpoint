@@ -14,7 +14,7 @@ app.use(date=(req,res,next)=>{
      })
 
 
-app.listen(3001, function (err) {
+app.listen(3000, function (err) {
   if (err) console.log("server not running");
   else console.log("server running in port 3000.");
 });
